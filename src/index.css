@@ -137,16 +137,11 @@
   /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
-}
-
-.scroll-container {
-  height: 100vh;
-  overflow-y: scroll;
   scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
 }
 
-.scroll-container section {
+/* Optimize scroll snapping performance */
+section {
   scroll-snap-align: start;
   scroll-snap-stop: always;
 }

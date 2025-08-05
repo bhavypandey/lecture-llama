@@ -10,7 +10,7 @@ const features = [
   {
     icon: Globe,
     title: "Multi-Language Support",
-    description: "Ask questions in Hindi, English, Spanish, or Mandarin. Get responses in your preferred language for better comprehension."
+    description: "Ask questions in English, Hindi, Spanish, or Mandarin. Get responses in your preferred language for better comprehension."
   },
   {
     icon: Brain,

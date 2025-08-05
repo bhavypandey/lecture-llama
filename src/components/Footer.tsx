@@ -73,9 +73,9 @@ export const Footer = () => {
           <p className="text-muted-foreground text-sm">
             © 2024 graid. All rights reserved.
           </p>
-          <p className="text-muted-foreground text-sm mt-2 md:mt-0">
+          {/* <p className="text-muted-foreground text-sm mt-2 md:mt-0">
             Winner - MLOps Expo, Northeastern University
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>

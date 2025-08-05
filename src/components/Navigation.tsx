@@ -31,11 +31,11 @@ export const Navigation = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" size="sm">
-              Login
+            <Button variant="ghost" size="sm" asChild>
+              <a href="mailto:arya@graidai.com?subject=Login%20Request">Login</a>
             </Button>
-            <Button variant="hero" size="sm">
-              Request Demo
+            <Button variant="hero" size="sm" asChild>
+              <a href="mailto:arya@graidai.com?subject=Demo%20Request&body=Hi%20team,%0A%0AI%20would%20like%20to%20schedule%20a%20demo%20of%20graid.%20for%20my%20university.%0A%0AUniversity:%20%0AName:%20%0ARole:%20%0AEmail:%20%0A%0AThank%20you!">Request Demo</a>
             </Button>
           </div>
 
@@ -64,11 +64,11 @@ export const Navigation = () => {
                 Contact
               </a>
               <div className="flex flex-col space-y-2 pt-4">
-                <Button variant="ghost" size="sm">
-                  Login
+                <Button variant="ghost" size="sm" asChild>
+                  <a href="mailto:arya@graidai.com?subject=Login%20Request">Login</a>
                 </Button>
-                <Button variant="hero" size="sm">
-                  Request Demo
+                <Button variant="hero" size="sm" asChild>
+                  <a href="mailto:arya@graidai.com?subject=Demo%20Request&body=Hi%20team,%0A%0AI%20would%20like%20to%20schedule%20a%20demo%20of%20graid.%20for%20my%20university.%0A%0AUniversity:%20%0AName:%20%0ARole:%20%0AEmail:%20%0A%0AThank%20you!">Request Demo</a>
                 </Button>
               </div>
             </div>

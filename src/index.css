@@ -16,10 +16,10 @@
     --popover: 222 47% 6%;
     --popover-foreground: 213 100% 98%;
 
-    /* Primary brand - Deep blue for trust & professionalism */
-    --primary: 235 69% 58%;
+    /* Primary brand - graid. blue (#3B82F6) */
+    --primary: 217 91% 60%;
     --primary-foreground: 213 100% 98%;
-    --primary-glow: 235 69% 68%;
+    --primary-glow: 219 89% 80%;
 
     /* Secondary - Subtle background variations */
     --secondary: 222 47% 8%;
@@ -28,10 +28,10 @@
     --muted: 222 47% 10%;
     --muted-foreground: 215 20% 65%;
 
-    /* Accent - Vibrant cyan for AI/tech highlights */
-    --accent: 189 100% 60%;
-    --accent-foreground: 222 47% 4%;
-    --accent-glow: 189 100% 70%;
+    /* Accent - graid. purple (#BC00FB) */
+    --accent: 286 100% 49%;
+    --accent-foreground: 213 100% 98%;
+    --accent-glow: 286 100% 60%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 213 100% 98%;

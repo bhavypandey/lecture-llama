@@ -14,6 +14,17 @@ export const Footer = () => {
               Revolutionizing education through AI-powered, context-aware learning experiences 
               that make every lecture interactive and accessible.
             </p>
+            <div className="mb-4">
+              <p className="text-sm text-muted-foreground mb-2">Our Team:</p>
+              <div className="grid grid-cols-2 gap-1 text-xs text-muted-foreground">
+                <div>Anish Hegde - Software Engineer</div>
+                <div>Ankush Maheshwari - Software Engineer</div>
+                <div>Arya Gowda - Data Engineer</div>
+                <div>Bhavya Pandey - Data Scientist</div>
+                <div>Nikhileshwar Bommareddy - AI Scientist</div>
+                <div>Vinay Menon - Software Engineer</div>
+              </div>
+            </div>
             <div className="flex space-x-4">
               <a href="#" className="text-muted-foreground hover:text-accent transition-colors">
                 <Twitter className="h-5 w-5" />
@@ -24,7 +35,7 @@ export const Footer = () => {
               <a href="#" className="text-muted-foreground hover:text-accent transition-colors">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="mailto:hello@graid.ai" className="text-muted-foreground hover:text-accent transition-colors">
+              <a href="mailto:arya@graidai.com" className="text-muted-foreground hover:text-accent transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
             </div>
@@ -46,8 +57,8 @@ export const Footer = () => {
             <h3 className="font-semibold mb-4 text-foreground">Get in Touch</h3>
             <ul className="space-y-2 text-muted-foreground">
               <li>
-                <a href="mailto:hello@graid.ai" className="hover:text-accent transition-colors">
-                  hello@graid.ai
+                <a href="mailto:arya@graidai.com" className="hover:text-accent transition-colors">
+                  arya@graidai.com
                 </a>
               </li>
               <li>University Partnerships</li>

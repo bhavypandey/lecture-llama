@@ -44,14 +44,18 @@ export const Hero = () => {
 
           {/* CTA buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-4 h-auto">
-              Request University Demo
-              <ArrowRight className="ml-2 h-5 w-5" />
+            <Button variant="hero" size="lg" className="text-lg px-8 py-4 h-auto" asChild>
+              <a href="mailto:arya@graidai.com?subject=Demo%20Request&body=Hi%20team,%0A%0AI%20would%20like%20to%20schedule%20a%20demo%20of%20graid.%20for%20my%20university.%0A%0AUniversity:%20%0AName:%20%0ARole:%20%0AEmail:%20%0A%0AThank%20you!">
+                Request University Demo
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
             
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4 h-auto">
-              <Play className="mr-2 h-5 w-5" />
-              Watch Demo Video
+            <Button variant="outline" size="lg" className="text-lg px-8 py-4 h-auto" asChild>
+              <a href="mailto:arya@graidai.com?subject=Student%20Access%20Request&body=Hi%20team,%0A%0AI%20would%20like%20to%20request%20early%20access%20to%20graid.%0A%0AName:%20%0AUniversity:%20%0AYear:%20%0AEmail:%20%0A%0AThank%20you!">
+                <Play className="mr-2 h-5 w-5" />
+                Get Student Access
+              </a>
             </Button>
           </div>
 

@@ -71,7 +71,7 @@ export const Hero = () => {
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-accent rounded-full" />
-              <span>&lt;5 Second Response</span>
+              <span>Fast Response</span>
             </div>
           </div>
         </div>

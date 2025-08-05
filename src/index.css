@@ -16,7 +16,7 @@
     --popover: 222 47% 6%;
     --popover-foreground: 213 100% 98%;
 
-    /* Primary brand - graid. blue (#3B82F6) */
+    /* Primary brand - graid. blue (#3B82F6) - main brand color */
     --primary: 217 91% 60%;
     --primary-foreground: 213 100% 98%;
     --primary-glow: 219 89% 80%;
@@ -28,7 +28,7 @@
     --muted: 222 47% 10%;
     --muted-foreground: 215 20% 65%;
 
-    /* Accent - graid. purple (#BC00FB) */
+    /* Accent - graid. purple (#BC00FB) - secondary accent */
     --accent: 286 100% 49%;
     --accent-foreground: 213 100% 98%;
     --accent-glow: 286 100% 60%;

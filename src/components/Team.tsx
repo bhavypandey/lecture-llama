@@ -1,33 +1,27 @@
 const teamMembers = [
   {
     name: "Anish Hegde",
-    role: "Software Engineer",
-    email: "anish@graidai.com"
+    role: "Software Engineer"
   },
   {
     name: "Ankush Maheshwari",
-    role: "Software Engineer",
-    email: "ankush@graidai.com"
+    role: "Software Engineer"
   },
   {
     name: "Arya Gowda",
-    role: "Data Engineer",
-    email: "arya@graidai.com"
+    role: "Data Engineer"
   },
   {
     name: "Bhavya Pandey",
-    role: "Data Scientist",
-    email: "pandey.bh@northeastern.edu"
+    role: "Data Scientist"
   },
   {
     name: "Nikhileshwar Bommareddy",
-    role: "AI Scientist",
-    email: "nikhil@graidai.com"
+    role: "AI Scientist"
   },
   {
     name: "Vinay Menon",
-    role: "Software Engineer",
-    email: "vinay@graidai.com"
+    role: "Software Engineer"
   }
 ];
 
@@ -44,22 +38,17 @@ export const Team = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 max-w-4xl mx-auto">
           {teamMembers.map((member, index) => (
             <div key={index} className="text-center">
-              <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                <div className="text-2xl font-bold text-primary">
-                  {member.name.split(' ').map(n => n[0]).join('')}
-                </div>
-              </div>
               <h3 className="text-xl font-semibold text-foreground mb-1">{member.name}</h3>
-              <p className="text-primary font-medium mb-2">{member.role}</p>
+              <p className="text-primary font-medium">{member.role}</p>
             </div>
           ))}
         </div>
 
-        <div className="text-center">
-          <div className="inline-block bg-card border border-border rounded-lg p-6">
+        <div className="flex justify-center">
+          <div className="bg-card/50 border border-border rounded-lg p-8 max-w-2xl">
             <h3 className="text-xl font-semibold text-foreground mb-2">Ready to Transform Education?</h3>
             <p className="text-muted-foreground">
               Our team of experts is ready to help universities and students revolutionize learning

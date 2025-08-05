@@ -45,9 +45,8 @@ export const Features = () => {
             <span className="gradient-text">AI-Powered Learning</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            {/* We transform passive lecture viewing into active, engaging learning experiences 
-            with advanced AI that understands context, tone, and student needs. */}
-            Accelerate your understanding with a system that listens, interprets, and responds in real time.
+            We transform passive lecture viewing into active, engaging learning experiences 
+            with advanced AI that understands context, tone, and student needs. No more rewinding, no more confusion — get the clarity you need, the moment you need it.
           </p>
         </div>
 

@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -133,23 +134,6 @@
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
-
-  /* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
-.scroll-container {
-  height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
-}
-
-.scroll-container section {
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-}
 
   /* Custom scrollbar */
   ::-webkit-scrollbar {

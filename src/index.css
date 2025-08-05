@@ -135,9 +135,16 @@
   }
 
   /* Smooth scrolling */
-  html {
-    scroll-behavior: smooth;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+/* Optimize scroll snapping performance */
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
 
   /* Custom scrollbar */
   ::-webkit-scrollbar {

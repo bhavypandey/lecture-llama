@@ -39,7 +39,7 @@ export const Hero = () => {
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
             Transform your recorded lectures into interactive, AI-powered learning experiences. 
-            Ask questions, get contextual answers, and learn in your preferred language—all in under 5 seconds.
+            Ask questions, get contextual answers, and learn in your preferred language—lightning fast.
           </p>
 
           {/* CTA buttons */}

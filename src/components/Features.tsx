@@ -20,7 +20,7 @@ const features = [
   {
     icon: Clock,
     title: "Lightning Fast Responses",
-    description: "Get accurate, contextual answers in under 5 seconds thanks to our optimized AI pipeline and multiple specialized LLMs."
+    description: "Get accurate, contextual answers instantly thanks to our optimized AI pipeline and multiple specialized LLMs."
   },
   {
     icon: ShieldCheck,

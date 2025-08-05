@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { LoginDialog } from "@/components/LoginDialog";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
@@ -32,6 +33,7 @@ export const Navigation = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
+            <ThemeToggle />
             <LoginDialog>
               <Button variant="ghost" size="sm">Login</Button>
             </LoginDialog>

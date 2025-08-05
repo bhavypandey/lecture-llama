@@ -6,7 +6,69 @@
 
 @layer base {
   :root {
-    /* Core brand colors */
+    /* Light mode colors */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Primary brand - graid. blue (#3B82F6) - main brand color */
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 219 89% 80%;
+
+    /* Secondary - Subtle blue variations */
+    --secondary: 217 32% 96%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 46%;
+
+    /* Accent - light purple for subtle accents only */
+    --accent: 286 50% 88%;
+    --accent-foreground: 222 47% 11%;
+    --accent-glow: 286 60% 70%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.75rem;
+
+    /* Blue-focused gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(217 100% 70%));
+    --gradient-card: linear-gradient(135deg, hsl(var(--card)), hsl(var(--secondary)));
+    --gradient-accent: linear-gradient(90deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    
+    /* Blue-focused glows and shadows */
+    --glow-primary: 0 0 60px hsl(var(--primary) / 0.3);
+    --glow-accent: 0 0 40px hsl(var(--primary) / 0.2);
+    --shadow-card: 0 25px 50px -12px hsl(222 47% 11% / 0.1);
+    
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 40% 96%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 214 32% 91%;
+    --sidebar-ring: 217 91% 60%;
+  }
+
+  .dark {
+    /* Dark mode colors */
     --background: 222 47% 4%;
     --foreground: 213 100% 98%;
 
@@ -28,7 +90,7 @@
     --muted: 222 47% 10%;
     --muted-foreground: 215 20% 65%;
 
-    /* Accent - graid. purple (#BC00FB) - secondary accent */
+    /* Accent - purple but used sparingly */
     --accent: 286 100% 49%;
     --accent-foreground: 213 100% 98%;
     --accent-glow: 286 100% 60%;
@@ -38,33 +100,27 @@
 
     --border: 222 47% 12%;
     --input: 222 47% 12%;
-    --ring: 235 69% 58%;
+    --ring: 217 91% 60%;
 
-    --radius: 0.75rem;
-
-    /* Beautiful gradients for graid. */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    /* Blue-focused gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(217 100% 70%));
     --gradient-card: linear-gradient(135deg, hsl(var(--card)), hsl(var(--secondary)));
-    --gradient-accent: linear-gradient(90deg, hsl(var(--accent)), hsl(var(--accent-glow)));
+    --gradient-accent: linear-gradient(90deg, hsl(var(--primary)), hsl(var(--primary-glow)));
     
-    /* Glows and shadows */
+    /* Blue-focused glows and shadows */
     --glow-primary: 0 0 60px hsl(var(--primary) / 0.3);
-    --glow-accent: 0 0 40px hsl(var(--accent) / 0.4);
+    --glow-accent: 0 0 40px hsl(var(--primary) / 0.4);
     --shadow-card: 0 25px 50px -12px hsl(222 47% 2% / 0.8);
-    
-    /* Animations */
-    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-    /* Sidebar (keeping original values) */
+    /* Sidebar */
     --sidebar-background: 222 47% 6%;
     --sidebar-foreground: 213 100% 90%;
-    --sidebar-primary: 235 69% 58%;
+    --sidebar-primary: 217 91% 60%;
     --sidebar-primary-foreground: 213 100% 98%;
     --sidebar-accent: 222 47% 8%;
     --sidebar-accent-foreground: 213 100% 90%;
     --sidebar-border: 222 47% 12%;
-    --sidebar-ring: 235 69% 58%;
+    --sidebar-ring: 217 91% 60%;
   }
 }
 

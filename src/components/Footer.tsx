@@ -14,7 +14,7 @@ export const Footer = () => {
               Revolutionizing education through AI-powered, context-aware learning experiences 
               that make every lecture interactive and accessible.
             </p>
-            <div className="mb-4">
+            {/* <div className="mb-4">
               <p className="text-sm text-muted-foreground mb-2">Our Team:</p>
               <div className="grid grid-cols-2 gap-1 text-xs text-muted-foreground">
                 <div>Anish Hegde - Software Engineer</div>
@@ -24,7 +24,7 @@ export const Footer = () => {
                 <div>Nikhileshwar Bommareddy - AI Scientist</div>
                 <div>Vinay Menon - Software Engineer</div>
               </div>
-            </div>
+            </div> */}
             <div className="flex space-x-4">
               <a href="#" className="text-muted-foreground hover:text-accent transition-colors">
                 <Twitter className="h-5 w-5" />

@@ -1,8 +1,10 @@
 import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
 import { Features } from "@/components/Features";
+import { Mission } from "@/components/Mission";
+import { Team } from "@/components/Team";
 import { SocialProof } from "@/components/SocialProof";
-import { CTA } from "@/components/CTA";
+import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 
 const Index = () => {
@@ -11,8 +13,10 @@ const Index = () => {
       <Navigation />
       <Hero />
       <Features />
+      <Mission />
+      <Team />
       <SocialProof />
-      <CTA />
+      <Contact />
       <Footer />
     </div>
   );

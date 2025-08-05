@@ -30,9 +30,9 @@ export const Hero = () => {
 
           {/* Main headline */}
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
-            Because learning shouldn't feel like{" "}
+            Education shouldn't rewind{" "}
             <span className="gradient-text">
-              rewinding the same lecture five times
+              it should respond.
             </span>
           </h1>
 

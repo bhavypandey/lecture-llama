@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { MessageSquare, Globe, Brain, Clock, ShieldCheck, Zap } from "lucide-react";
+import { MessageSquare, Globe, Brain, Clock, ShieldCheck, Zap, BarChart3 } from "lucide-react";
 
 const features = [
   {
@@ -31,6 +31,11 @@ const features = [
     icon: Zap,
     title: "Seamless Integration",
     description: "Easy integration with existing university lecture recording systems and learning management platforms."
+  },
+  {
+    icon: BarChart3,
+    title: "Professor Analytics",
+    description: "Comprehensive analytics dashboard for professors to identify where students struggle most, enabling targeted support and improved teaching strategies."
   }
 ];
 
